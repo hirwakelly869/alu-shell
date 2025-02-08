@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo chown vincent:staff $(readlink _hello)
-ls -l $(readlink _hello)
+sudo chown vincent:staff $(readlink -f _hello)
