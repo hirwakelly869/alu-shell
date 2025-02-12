@@ -1,9 +1,12 @@
 
 #!/usr/bin/env bash
-#using while to print 10 best schools
-n=1
-while [ $n -le 10 ]
-do 
+# Displays 'Best School' 10 times using a while loop
+
+i=0
+
+while [ $i -lt 10 ]
+do
   echo "Best School"
-  ((n++))
+  ((i++))
 done
+
