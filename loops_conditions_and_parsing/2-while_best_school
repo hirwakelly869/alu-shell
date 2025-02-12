@@ -1,8 +1,10 @@
 
 #!/usr/bin/env bash
-#printing best school ten times
-for _ in {1..10}
-do
+#using while to print 10 best schools
+n=1
+while [ $n -le 10 ]
+do 
   echo "Best School"
+  ((n++))
 done
 
