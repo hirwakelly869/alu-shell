@@ -1,19 +1,17 @@
 #!/usr/bin/env bash
-
-# Initialize the counter
-counter=1
-
-# Start the while loop
-while [ $counter -le 10 ]
-do
-    if [ $counter -eq 4 ]; then
-        echo "bad luck"
-    elif [ $counter -eq 8 ]; then
-        echo "good luck"
-    else
-        echo "Best School"
-    fi
-    
-    # Increment the counter
-    counter=$((counter + 1))
+#changing 8th and 4th output
+n=1
+while [ $n -le 10 ]
+do 
+  if [ $n = 4 ]
+  then 
+      echo "bad luck"
+  elif [ $n = 8 ]
+  then 
+     echo "good luck"
+  else
+     echo "Best School"
+  fi
+  ((n++))
 done
+
