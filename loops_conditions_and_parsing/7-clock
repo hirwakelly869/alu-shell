@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 #using while for minutes and hour display
 hour=0
@@ -13,4 +12,3 @@ do
     done
     ((hour++))
 done
-
